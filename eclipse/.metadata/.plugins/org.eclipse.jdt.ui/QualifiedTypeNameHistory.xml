@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Mod.EventHandler"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="com.WTFGeeks.treasuregoblins.proxy.IProxy"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.WTFGeeks.treasuregoblins.configuration.ConfigurationHandler"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent.OnConfigChangedEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.eventhandler.SubscribeEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.IModGuiFactory"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.config.GuiConfig"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.GuiScreen"/>
+<fullyQualifiedTypeName name="com.WTFGeeks.treasuregoblins.reference.Reference"/>
+<fullyQualifiedTypeName name="com.WTFGeeks.treasuregoblins.handler.ConfigurationHandler"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.ConfigElement"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
 </qualifiedTypeNameHistroy>

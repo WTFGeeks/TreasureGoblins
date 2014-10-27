@@ -1,0 +1,52 @@
+package com.WTFGeeks.treasuregoblins.handler;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler {
+	
+	public static Configuration configuration;
+	
+	
+	public static void init(File configFile){
+		
+		// Create the configuration object from the given configuration file
+		Configuration configuration = new Configuration(configFile);
+		boolean configValue = false;
+		
+		
+	try
+		{
+	   // Load the configuration file 
+			
+			configuration.load();
+			
+       // Read in properties from configuration file
+		    configValue = configuration.get("Would you like a goblin?", "configValue", true, "true for more goblins").getBoolean(true);
+		}
+		
+    catch (Exception e)
+		    {
+	   // Log the exception
+			
+		    }
+    finally
+		    {
+	   // Save the configuration file
+    	if (configuration.hasChanged())
+    	{
+		    	configuration.save();
+			
+			
+		    }
+	
+	
+	}
+}
+	
+}
+	
+	
+
+
