@@ -1,0 +1,9 @@
+package com.WTFGeeks.treasuregoblins;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid="treasuregoblins", name="Treasure Goblins", version="1.7.10-1.0")
+
+public class TreasureGoblins {
+
+}
