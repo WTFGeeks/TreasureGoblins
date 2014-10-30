@@ -1,0 +1,7 @@
+package com.WTFGeeks.treasuregoblins.entity;
+
+public class EntityFallenGoblin extends EntityMob
+{
+	
+
+}

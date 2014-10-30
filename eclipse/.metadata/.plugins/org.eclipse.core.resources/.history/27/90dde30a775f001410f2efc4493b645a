@@ -1,0 +1,17 @@
+package com.WTFGeeks.treasuregoblins.item;
+
+import net.minecraft.item.ItemFood;
+
+public class ItemGoblinMeat extends ItemTG
+{
+	public ItemGoblinMeat()
+	{
+		super();
+		this.setUnlocalizedName("goblinmeat");
+        this.maxStackSize = 64;
+        new ItemFood(5, 1.0F, false);
+        
+
+}
+	
+}

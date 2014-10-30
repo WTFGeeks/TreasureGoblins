@@ -1,0 +1,21 @@
+package com.WTFGeeks.treasuregoblins.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+
+
+
+public class BlockTG extends Block
+{
+	public BlockTG(Material material)
+	{
+		super(material);
+	}
+	
+	public BlockTG()
+	{
+		this(Material.rock);
+	}
+
+}

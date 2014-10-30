@@ -1,0 +1,12 @@
+package com.WTFGeeks.treasuregoblins.item;
+
+import net.minecraft.item.Item;
+
+public class ItemTG extends Item
+{
+	public ItemTG()
+	{	
+		super();
+	}
+
+}

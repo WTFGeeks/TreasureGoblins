@@ -1,9 +1,19 @@
 package com.WTFGeeks.treasuregoblins;
 
+
+
+import com.WTFGeeks.treasuregoblins.Init.ModBlocks;
+import com.WTFGeeks.treasuregoblins.Init.ModItems;
+import com.WTFGeeks.treasuregoblins.Init.Recipes;
+import com.WTFGeeks.treasuregoblins.client.handler.KeyInputEventHandler;
+import com.WTFGeeks.treasuregoblins.entity.EntityFallenGoblin;
 import com.WTFGeeks.treasuregoblins.handler.ConfigurationHandler;
+import com.WTFGeeks.treasuregoblins.handler.EntityHandler;
 import com.WTFGeeks.treasuregoblins.proxy.IProxy;
 import com.WTFGeeks.treasuregoblins.reference.Reference;
+import com.WTFGeeks.treasuregoblins.utility.LogHelper;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -30,6 +40,12 @@ public class TreasureGoblins {
 	
 	{
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+		
+		proxy.registerKeyBindings();
+		ModItems.init();
+		ModBlocks.init();
+		LogHelper.info("Pre Initialization Complete");
 		
 		
 	}
@@ -39,9 +55,12 @@ public class TreasureGoblins {
 	public void Init(FMLInitializationEvent event)
 	
 	{
+		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+		Recipes.init();
+		LogHelper.info("Initialization Complete");
 		
-		
-		
+		//Entities
+		EntityHandler.registerEntities(EntityFallenGoblin.class, "FallenGoblin");
     }
 	
 	
@@ -50,7 +69,7 @@ public class TreasureGoblins {
 	
 	
 	{
-		
+		LogHelper.info("Post Initialization Complete");
 		
 		
 	}

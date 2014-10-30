@@ -1,0 +1,15 @@
+package com.WTFGeeks.treasuregoblins.creativetab;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class CreativeTabTG 
+{
+	public static final CreativeTabs TG_TAB = new CreativeTabs()
+	{
+		@Override
+		public Item getTabIconItem(){
+			return null;
+		}
+	};
+}

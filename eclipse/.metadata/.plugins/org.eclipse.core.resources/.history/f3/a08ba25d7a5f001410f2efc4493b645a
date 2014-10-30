@@ -1,0 +1,15 @@
+package com.WTFGeeks.treasuregoblins.item;
+
+import com.WTFGeeks.treasuregoblins.creativetab.CreativeTabTG;
+
+import net.minecraft.item.ItemFood;
+
+public class ItemFoodTG extends ItemFood 
+{
+	public ItemFoodTG()
+	{	
+		super(healAmount, potionEffectProbability, alwaysEdible);
+		this.setCreativeTab(CreativeTabTG.TG_TAB);
+	}
+
+}

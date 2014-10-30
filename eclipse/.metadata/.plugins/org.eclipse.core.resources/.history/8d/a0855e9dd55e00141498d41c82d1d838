@@ -1,0 +1,13 @@
+package com.WTFGeeks.treasuregoblins.block;
+
+public class BlockRawGoblin extends BlockTG 
+{
+	public BlockRawGoblin()
+	{
+		super();
+		this.setBlockName("rawgoblin");
+		this.setBlockTextureName("rawgoblin");
+		this.setStepSound(soundTypeGrass);
+	}
+
+}

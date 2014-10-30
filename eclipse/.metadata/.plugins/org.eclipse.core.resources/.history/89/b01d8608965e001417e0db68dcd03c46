@@ -1,0 +1,21 @@
+[
+{
+  "modid": "treasuregoblins",
+  "name": "Treasure Goblins",
+  "description": "Inspired by Diablo 3 treasure goblins",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "www.youtube.com/wtfgeeks",
+  "updateUrl": "",
+  "authorList": [
+    "WTFGeeks"
+     ],
+  "credits": "All the loot!",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

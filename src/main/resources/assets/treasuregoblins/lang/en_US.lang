@@ -1,0 +1,14 @@
+# Keys
+keys.treasuregoblins.category=Treasure Goblins
+keys.treasuregoblins.charge=Charge
+keys.treasuregoblins.release=Release
+
+# Creative Tabs
+itemGroup.treasuregoblins=Treasure Goblins
+
+# Items
+item.treasuregoblins:goblinmeat.name=Goblin Meat
+item.treasuregoblins:goldCoin.name=Gold Coin
+
+# Blocks
+tile.treasuregoblins:rawgoblin.name=Raw Goblin Block

@@ -1,0 +1,19 @@
+package com.WTFGeeks.treasuregoblins.Init;
+
+import com.WTFGeeks.treasuregoblins.item.ItemGoldCoin;
+import com.WTFGeeks.treasuregoblins.item.ItemTG;
+import com.WTFGeeks.treasuregoblins.reference.Reference;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
+public class ModItems 
+{
+	public static final ItemTG goldcoin = new ItemGoldCoin();
+	
+	public static void init()
+	{
+		GameRegistry.registerItem(goldcoin, "goldCoin");
+	}
+
+}

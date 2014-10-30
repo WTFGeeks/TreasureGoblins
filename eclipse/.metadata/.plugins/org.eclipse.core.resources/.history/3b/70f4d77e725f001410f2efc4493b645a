@@ -1,0 +1,5 @@
+package com.WTFGeeks.treasuregoblins.client.handler;
+
+public class KeyInputEventHandler {
+
+}

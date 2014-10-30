@@ -1,0 +1,10 @@
+package com.WTFGeeks.treasuregoblins.Init;
+
+public class Recipes 
+{
+	public static void init()
+	{
+		
+	}
+
+}

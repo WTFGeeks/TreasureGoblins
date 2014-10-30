@@ -1,0 +1,11 @@
+package com.WTFGeeks.treasuregoblins.item;
+
+public class ItemGoldCoin extends ItemTG
+{
+	public ItemGoldCoin()
+	{
+		super();
+		this.setUnlocalizedName("goldCoin");
+	}
+
+}
